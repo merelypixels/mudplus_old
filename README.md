@@ -1,20 +1,23 @@
-mudplus (a.k.a. MUD++)
+MudPlus (a.k.a. Mud++)
 =======
-<p> An open-source Groovy/Grails project under the GNU-Public license, with one slight alteration: </p>
+<p> An open-source Groovy/Grails project under the GNU-Public license, with three slight alterations: </p>
 <ul>
-  <li> Use/redistribution/code-alteration are all encouraged, provided you leave any original header-comments in the files and follow the rest of the GNU-Public license. </li>
+  <li> Use/redistribution/code-alteration are all encouraged, provided you leave any original header-comments in the files and follow the rest of the GNU-Public license </li>
+  <li> Please keep any additions to the driver portion of this project open-source. Make it your own github project if you wish, but please mention MUD++ and the URL of this github project as the original code-base </li>
+  <li>Your changes to the basic lib should probably remain private so that no one can just steal your mud at will; building areas takes a lot of writing from various contributors and I perfectly understand the need for closed-source here. Building a sophisticated lib even more so. All lib-only classes will be clearly placed within a package named "lib" and its subfolders </li>
+  <li> If you wish to contribute code to the basic Mud++ Lib, see the section below on becoming a contributor. </li>
 </ul>
 
-Our Mission:
+Project Goal:
 ======
 <p> To modernize the experience of MUDing, that is, to provide a simple, maintainable, open-source, and FREE way of creating text-based games commonly known as MUDs (also as MUSHes and MOOs). </p>
 
-<p> Have you ever wanted to make your own web-based game but thought it too difficult to design all the necessary infrastructure? MUD++ provides you with the tools you need to leap into creating your own virtual world: </p>
+<p> Have you ever wanted to make your own web-based game but thought it too difficult to design all the necessary infrastructure? Mud++ provides you with all of the tools you need to quickly leap into creating your own virtual world: </p>
 
 <ul>
-  <li> MUD++ Driver
+  <li> <b>MUD++ Driver</b>
     <ul>
-      <li> Modern Security: prevents common attacks against web sites, handles the tracking of User (a.k.a Soul) credentails, and provides fine-grained security policies at the member-level for what SecurityRole authorizations a Soul needs to run any particular code.</li>
+      <li> Modern Security: prevents common attacks against web sites, handles the tracking of User (a.k.a Soul) credentails, and provides fine-grained security policies at the class and class-member-level for what SecurityRole authorizations a Soul needs to run any particular code.</li>
       <li> Atomic Support Classes: designed with the idea in mind that each MUD is unique and your MudLib should be able to be largely unrestricted by driver concerns.</li>
       <li> Runtime, Community-Friendly, Sandboxed Development: with MUD++, we keep with the LPMUD tradition of allowing code to be created at runtime so that the server has no need to reboot with every change to the lib.</li>
       <li> Easy to use language parsing and run-time modifiable language rules/addition of verbs </li>
@@ -28,11 +31,11 @@ Our Mission:
       <li> Cross-platform support and Ease of Deployment: any web-server capable of hosting a .WAR file is ready for MUD++ </li>
     </ul>
   </li>
-  <li> Includes the basic MUD++ Lib
+  <li> <b>Includes the Basic Mud++ Lib</b>
     <ul>
       <li> Provides a basis you can tailor for your own world </li>
       <li> Respects LPMud tradition while adding improvements. Harks back to the DeadSouls LPMudLib that was used to produce Nightmare LPMud and then countless others </li>
-      <li> Substitutes Groovy for the antiquated LPC. This allows creators to have modern coding tools and a much more intuitive syntax that's better for both beginners and code-gurus </li>
+      <li> Substitutes Groovy for the antiquated LPC programming language. This allows creators to have modern coding tools and a much more intuitive syntax that's better for both beginners and code-gurus </li>
     </ul>
   </li>
 </ul>
@@ -55,5 +58,6 @@ Why Text-Based Gaming in 201X?
 
 <p> While MUD++ and its derivatives will not be the first MUDs that have been browser-based, they will be the only completely open-source muds to Toaster's knowledge, with the exception of the lib code. Toaster fully understands and expects that you will keep your lib and realms private so that it's harder for people to steal all of your hard work in making your lib distinct. While Toaster will provide a basic lib to start from, he does not propose to keep developments to the lib public. Still, in Toaster's opinion, this is a much-needed project that simultaneously solves critical, nagging issues with the current open-source telnet-style mud drivers/libs while bringing modern tools and browser abilities within easy reach of developers and thereby to players. </p>
 
-Wanting to Become a (code) Contributor?
+Wanting to Become a (Code/Ideas) Contributor?
 ======
+<p> Mud++ is currently in the initial development stage and, to keep things simpler for now, Toaster (a.k.a. MerelyPixels) reserves the right to exclusive code-contribution. However, Toaster would welcome any ideas or code-review that anyone wishes to contribute. Toaster will set up Contributor accounts to by default be able to comment on any wikis or whatever provided by github once he gets the chance, but community <i>code</i> contributions are not appropriate as of this time. Toaster will update you here once the project is fleshed out more. </p>
