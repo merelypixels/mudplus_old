@@ -58,6 +58,6 @@ Why Text-Based Gaming in 201X?
 
 <p> While MUD++ and its derivatives will not be the first MUDs that have been browser-based, they will be the only completely open-source muds to Toaster's knowledge, with the exception of the lib code. Toaster fully understands and expects that you will keep your lib and realms private so that it's harder for people to steal all of your hard work in making your lib distinct. While Toaster will provide a basic lib to start from, he does not propose to keep developments to the lib public. Still, in Toaster's opinion, this is a much-needed project that simultaneously solves critical, nagging issues with the current open-source telnet-style mud drivers/libs while bringing modern tools and browser abilities within easy reach of developers and thereby to players. </p>
 
-Want to Become a (Code/Ideas) Contributor?
+Want to Become a Contributor?
 ======
 <p> Mud++ is currently in the initial development stage and, to keep things simpler for now, Toaster (a.k.a. MerelyPixels) reserves the right to exclusive code-contribution. However, Toaster would welcome any ideas or code-review that anyone wishes to contribute. Toaster will set up Contributor accounts to by default be able to comment on any wikis or whatever provided by github once he gets the chance, but community <i>code</i> contributions are not appropriate as of this time. Toaster will update you here once the project is fleshed out more. </p>
