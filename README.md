@@ -1,6 +1,6 @@
 MudPlus (a.k.a. Mud++)
 =======
-<p> An open-source Groovy/Grails project under the GNU-Public license, with three slight alterations: </p>
+<p> An open-source Groovy/Grails project under the GNU-Public license, with some slight alterations intended to help the community grow: </p>
 <ul>
   <li> Use/redistribution/code-alteration are all encouraged, provided you leave any original header-comments in the files and follow the rest of the GNU-Public license </li>
   <li> Please keep any additions to the driver portion of this project open-source. Make it your own github project if you wish, but please mention MUD++ and the URL of this github project as the original code-base </li>
