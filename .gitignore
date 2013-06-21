@@ -38,9 +38,11 @@ Icon?
 ehthumbs.db
 Thumbs.db
 
-# IDEA generated files #
+# IDE generated files #
 ######################
 .idea/*
+.settings
+.settings/*
 .project
 .classpath
 *.iml
