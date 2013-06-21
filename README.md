@@ -5,7 +5,7 @@ MudPlus (a.k.a. Mud++)
   <li> Use/redistribution/code-alteration are all encouraged, provided you leave any original header-comments in the files and follow the rest of the GNU-Public license </li>
   <li> Please keep any additions to the driver portion of this project open-source. Make it your own github project if you wish, but please mention MUD++ and the URL of this github project as the original code-base </li>
   <li>Your changes to the basic lib should probably remain private so that no one can just steal your mud at will; building areas takes a lot of writing from various contributors and I perfectly understand the need for closed-source here. Building a sophisticated lib even more so. All lib-only classes will be clearly placed within a package named "lib" and its subfolders </li>
-  <li> If you wish to contribute code to the basic Mud++ Lib, see the section below on becoming a contributor. </li>
+  <li> If you wish to contribute code to the basic Mud++ Lib (which will always be open-source), see the section below on becoming a contributor. </li>
 </ul>
 
 Project Goal:
@@ -58,6 +58,6 @@ Why Text-Based Gaming in 201X?
 
 <p> While MUD++ and its derivatives will not be the first MUDs that have been browser-based, they will be the only completely open-source muds to Toaster's knowledge, with the exception of the lib code. Toaster fully understands and expects that you will keep your lib and realms private so that it's harder for people to steal all of your hard work in making your lib distinct. While Toaster will provide a basic lib to start from, he does not propose to keep developments to the lib public. Still, in Toaster's opinion, this is a much-needed project that simultaneously solves critical, nagging issues with the current open-source telnet-style mud drivers/libs while bringing modern tools and browser abilities within easy reach of developers and thereby to players. </p>
 
-Wanting to Become a (Code/Ideas) Contributor?
+Want to Become a (Code/Ideas) Contributor?
 ======
 <p> Mud++ is currently in the initial development stage and, to keep things simpler for now, Toaster (a.k.a. MerelyPixels) reserves the right to exclusive code-contribution. However, Toaster would welcome any ideas or code-review that anyone wishes to contribute. Toaster will set up Contributor accounts to by default be able to comment on any wikis or whatever provided by github once he gets the chance, but community <i>code</i> contributions are not appropriate as of this time. Toaster will update you here once the project is fleshed out more. </p>
